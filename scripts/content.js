@@ -1,8 +1,8 @@
 let searchInput = document.getElementsByName("q")[0]
 console.log(searchInput);
 var results = {};
-var url = "https://clerkieserverchromeextensionv1.krrishdholakia.repl.co/decide?";
-var errorUrl = "https://clerkieserverchromeextensionv1.krrishdholakia.repl.co/errorDeterminer?";
+var url = "INSERT_SERVER_URL";
+var errorUrl = "INSERT_SERVER_URL"
 var errorResults = {}
 async function checkError(text) {
   return fetch(errorUrl +
